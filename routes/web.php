@@ -20,3 +20,5 @@ Route::get('/',\App\Http\Livewire\HomeComponent::class);
 Route::get('/shop',\App\Http\Livewire\ShopComponent::class);
 Route::get('/cart',\App\Http\Livewire\CartComponent::class);
 Route::get('/checkout', \App\Http\Livewire\CheckoutConponent::class);
+Route::get('/about-us',\App\Http\Livewire\AboutusComponent::class);
+Route::get('/contact-us',\App\Http\Livewire\ContactusComponent::class);
