@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 Route::get('/',\App\Http\Livewire\HomeComponent::class);
+Route::get('/shop',\App\Http\Livewire\ShopComponent::class);
